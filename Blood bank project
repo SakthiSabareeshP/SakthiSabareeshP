@@ -1,0 +1,11 @@
+print("Welcome to the Blood Bank management centre!")
+Person1_Name = input("Enter your name: ")
+blood_group = input("Enter your blood group: ")
+if(blood_group == "A"):
+    print("Your blood group has A antigens on the red blood cells and anti-B antibodies in the plasma")
+elif(blood_group == "B"):
+    print("Your blood group has B antigens with anti-A antibodies in the plasma.")
+elif(blood_group == "O"):
+    print("Your blood group has no antigens, but both anti-A and anti-B antibodies in the plasma.")
+elif(blood_group == "AB"):
+    print("Your blood has both A and B antigens, but no antibodies.")
